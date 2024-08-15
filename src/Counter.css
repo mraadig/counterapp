@@ -1,0 +1,67 @@
+.counter-container {
+    text-align: center;
+    margin-top: 50px;
+    background-color: var(--color-bg);
+    color: var(--color-white);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.button-container {
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #5a54db;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.progress-container {
+    margin: 30px;
+    width: var(--container-width-md);
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.progress-bar {
+    height: 20px;
+    background-color: var(--color-primary);
+    text-align: center;
+    color: var(--color-white);
+    border-radius: 10px;
+    position: relative;
+    transition: width 0.4s ease;
+}
+
+.progress-bar-circle {
+    position: absolute;
+    top: 50%;
+    right: 0; /* Align with the end of the progress bar */
+    width: 20px;
+    height: 20px;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    border: 3px solid var(--color-white);
+    transform: translate(50%, -50%); 
+}
+
+.undo-redo-container {
+    margin-top: 20px;
+}
