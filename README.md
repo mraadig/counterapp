@@ -10,10 +10,6 @@ This is a simple React web application that allows you to increment and decremen
 - **Rapid Increment/Decrement**: Holding down the buttons allows for rapid changes in the counter value.
 - **State Constraints**: The counter value is constrained to be within the range of 0 to 150.
 
-## Demo
-
-![Counter App Demo](demo.gif) _(Add a demo gif if available)_
-
 ## Installation
 
 1. Clone the repository:
